@@ -1,8 +1,15 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+import { HashRouter } from 'react-router-dom'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+
+createRoot(document.getElementById('root')).render(
+  <HashRouter>
+
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  </HashRouter>
+)
