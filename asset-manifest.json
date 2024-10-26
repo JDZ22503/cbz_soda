@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cbz_soda/static/css/main.f67421ac.css",
+    "main.js": "/cbz_soda/static/js/main.16a3fd59.js",
+    "static/media/sodas.png": "/cbz_soda/static/media/sodas.ff5b3047f8e0df19c4a1.png",
+    "static/media/limbu_soda.png": "/cbz_soda/static/media/limbu_soda.f6d080ea9164da8c512f.png",
+    "static/media/cbz.png": "/cbz_soda/static/media/cbz.523fb4ee32694453ee64.png",
+    "index.html": "/cbz_soda/index.html",
+    "main.f67421ac.css.map": "/cbz_soda/static/css/main.f67421ac.css.map",
+    "main.16a3fd59.js.map": "/cbz_soda/static/js/main.16a3fd59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f67421ac.css",
+    "static/js/main.16a3fd59.js"
+  ]
+}
